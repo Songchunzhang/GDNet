@@ -13,6 +13,7 @@ public:
 
     virtual void PutSomething() = 0;
 
+    virtual voit DoSomething() = 0;
     void makeDrink()
     {
         Boil();
