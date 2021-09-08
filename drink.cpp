@@ -13,9 +13,11 @@ public:
 
     virtual void PutSomething() = 0;
 
-    virtual voit DoSomething() = 0;
+    virtual void DoSomething() = 0;
 
-    virtual voit addSomething() = 0;
+    virtual void addSomething() = 0;
+
+    virtual void branchtest() = 0;
     void makeDrink()
     {
         Boil();
